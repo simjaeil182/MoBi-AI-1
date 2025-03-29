@@ -24,3 +24,6 @@ async def generate_text(req: PromptRequest):
     response = call_koalpaca(prompt_with_context)
     update_memory(req.user_id, req.prompt, response)
     return {"response": response}
+@app.get("/")
+async def root():
+    return {"message": "MoBi-AI Server is Running!"}
