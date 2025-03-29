@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>MoBi-AI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 MoBi AI (KoAlpaca)</h1>
+    <input id="user-id" placeholder="사용자 ID를 입력하세요" />
+    <textarea id="prompt" placeholder="MoBi에게 물어보세요!"></textarea>
+    <button onclick="sendPrompt()">질문하기</button>
+    <pre id="response">응답이 여기에 표시됩니다.</pre>
+    <button onclick="toggleTheme()">🌗 테마 변경</button>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

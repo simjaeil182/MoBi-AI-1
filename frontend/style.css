@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  background: #111;
+  color: #eee;
+  margin: 0;
+  padding: 2rem;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+}
+textarea, input {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+pre {
+  background: #222;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+.light {
+  background: #f9f9f9;
+  color: #222;
+}
+.light pre {
+  background: #eee;
+}
